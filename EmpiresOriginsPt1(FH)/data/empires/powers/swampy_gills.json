@@ -1,0 +1,21 @@
+{
+	"name": "Swampy Gills",
+	"description": "You are adapted to the water of the swamp biome. You can see and breathe underwater indefinitely as long as you’re in a swamp. However you only have limited water breathing anywhere else.",
+	"condition": {
+		"type": "origins:biome",
+		"condition": {
+			"type": "origins:category",
+			"category": "swamp"
+		}
+	},
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 20,
+	"duration_per_stack": 1,
+	"effects": [{
+		"effect": "minecraft:conduit_power",
+		"is_ambient": false,
+		"show_particles": false,
+		"show_icon": false
+	}]
+}

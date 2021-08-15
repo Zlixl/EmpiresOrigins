@@ -1,0 +1,23 @@
+{
+	"powers": [
+		"empires:best_friends",
+		"empires:greater_good",
+		"empires:salmon_sickness",
+		"empires:cod_headed",
+		"empires:codharvest",
+		"empires:nohelmet",
+		"empires:cod_anxiety",
+		"empires:swampy_gills",
+		"empires:gill_fragility",
+		"empires:come_back",
+		"empires:cod_nausea",
+		"empires:cod_blindness",
+
+		"empires:reminisce"
+	],
+	"icon": "minecraft:cod_bucket",
+	"order": 10,
+	"impact": 2,
+	"name": "Codman",
+	"description": "You are a citizen of the Codfather's Empire."
+}

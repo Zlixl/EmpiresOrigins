@@ -1,0 +1,20 @@
+{
+	"name": "Memories from Another Life",
+	"description": "Seeing a poppy in an item frame reminds you of something, you're not quite sure what, but it makes your heart tingle.",
+	"type": "origins:action_over_time",
+	"interval": 10,
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "execute at @s if entity @e[type = item_frame, nbt = {Item: {id: \"minecraft:poppy\"}}, distance = ..3] run effect give @s minecraft:regeneration 1 0 true"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "execute at @s if entity @e[type = glow_item_frame, nbt = {Item: {id: \"minecraft:poppy\"}}, distance = ..3] run effect give @s minecraft:regeneration 1 0 true"
+			}
+		]
+	}
+}

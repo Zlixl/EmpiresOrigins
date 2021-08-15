@@ -1,0 +1,13 @@
+{
+	"name": "Best Friends?",
+	"description": "You want to make friends as soon as possible. Maybe a cake and a pufferish will help you.",
+	"type": "origins:starting_equipment",
+	"stacks": [{
+			"item": "minecraft:pufferfish_bucket"
+		},
+		{
+			"item": "minecraft:cake"
+		}
+	]
+
+}

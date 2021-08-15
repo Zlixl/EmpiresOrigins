@@ -1,0 +1,33 @@
+{"hidden": "true",
+	"name": "Ward Away",
+	"description": "Crystals hold some holy power, holding them in your offhand let you stave off the corruption, for now.",
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:biome",
+				"condition": {
+					"type": "origins:category",
+					"category": "nether"
+				}
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+
+					"ingredient": {
+						"item": "minecraft:diamond"
+					}
+				}
+			}
+		]
+	},
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:execute_command",
+                "command": "clear @s diamond 1"
+	},
+	"interval": 300
+
+}

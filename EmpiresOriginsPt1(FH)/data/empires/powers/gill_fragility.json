@@ -1,0 +1,30 @@
+{"hidden": "true",
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:biome",
+				"condition": {
+					"type": "origins:category",
+					"category": "swamp",
+					"inverted": true
+				}
+			},
+			{
+
+				"type": "origins:submerged_in",
+				"fluid": "minecraft:water",
+				"inverted": true
+			}
+		]
+	},
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 2,
+	"duration_per_stack": 300,
+	"effects": [{
+		"effect": "minecraft:water_breathing",
+		"is_ambient": false,
+		"show_particles": false,
+		"show_icon": false
+	}]
+}

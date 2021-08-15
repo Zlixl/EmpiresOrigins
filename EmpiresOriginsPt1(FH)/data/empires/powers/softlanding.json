@@ -1,0 +1,24 @@
+{
+	"name": "Soft Landing",
+	"description": "All shoes that you wear have a wool lining that makes falling a little softer on your toes.",
+	"condition": {
+		"type": "origins:equipped_item",
+		"equipment_slot": "feet",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"tag": "empires:shoe"
+			}
+		}
+	},
+
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:name",
+		"name": "fall"
+	},
+	"modifier": {
+		"operation": "addition",
+		"value": -5
+	}
+}
