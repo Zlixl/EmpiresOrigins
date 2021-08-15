@@ -1,0 +1,42 @@
+{
+	"name": "Cold Step",
+	"description": "Living on the cold mountains has made you used moving fast when your feet are cold.",
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:equipped_item",
+				"equipment_slot": "feet",
+				"inverted": true,
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "empires:shoe"
+					}
+				}
+			},
+			{
+				"type": "origins:block_in_radius",
+				"block_condition": {
+					"type": "origins:in_tag",
+					"tag": "empires:cold"
+				},
+				"radius": 1,
+				"shape": "cube",
+				"comparison": ">=",
+				"compare_to": 1
+			}
+		]
+	},
+
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 3,
+	"duration_per_stack": 10,
+	"effects": [{
+		"effect": "minecraft:speed",
+		"amplifier": 1,
+		"is_ambient": false,
+		"show_particles": false,
+		"show_icon": false
+	}]
+}

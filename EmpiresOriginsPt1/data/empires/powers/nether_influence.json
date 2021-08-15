@@ -1,0 +1,42 @@
+{
+	"name": "Nether Influence",
+	"description": "Aeor can't protect you in the nether, you feel the pull of corruption on you the longer you stay.",
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:biome",
+				"condition": {
+					"type": "origins:category",
+					"category": "nether"
+				}
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"inverted": true,
+				"item_condition": {
+					"type": "origins:ingredient",
+
+					"ingredient": {
+						"tag": "empires:crystal"
+					}
+				}
+			}
+		]
+	},
+	"type": "origins:stacking_status_effect",
+	"min_stacks": -10,
+	"max_stacks": 15,
+	"duration_per_stack": 5,
+	"effects": [{
+			"effect": "minecraft:mining_fatigue",
+			"show_particles": false,
+			"amplifier": 1
+		},
+		{
+			"effect": "minecraft:weakness",
+			"show_particles": false,
+			"amplifier": 2
+		}
+	]
+}

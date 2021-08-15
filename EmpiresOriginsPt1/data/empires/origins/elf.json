@@ -1,0 +1,26 @@
+{
+	"powers": [
+		"empires:grace",
+		"empires:softlanding",
+		"empires:weaver",
+		"empires:coldstep",
+		"empires:nether_influence",
+		"empires:nether_darkness",
+		"empires:nether_corruption",
+		"empires:wardawaydia",
+		"empires:wardawayeme",
+		"empires:wardawayame",
+		"empires:wardawayclus",
+		"empires:crimson_fear",
+		"empires:crimsonwardeme",
+		"empires:crimsonwardame",
+		"empires:crimsonwarddia",
+		"empires:crimsonwardclus",
+		"empires:nostalgia"
+	],
+	"icon": "minecraft:flower_banner_pattern",
+	"order": 10,
+	"impact": 1,
+	"name": "Rivendell Elf",
+	"description": "You are a citizen of Scott Smajor, the Elf King's Empire."
+}

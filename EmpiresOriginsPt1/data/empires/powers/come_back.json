@@ -1,0 +1,39 @@
+{
+	"name": "Can't Keep the Cod Down!",
+	"description": "Despite the adversity, you refuse to give up.",
+	"type": "origins:action_on_callback",
+	"entity_action_respawned": {
+		"type": "origins:apply_effect",
+		"effects": [{
+				"effect": "minecraft:speed",
+				"duration": 3600,
+				"amplifier": 1,
+				"show_particles": false
+			},
+			{
+				"effect": "minecraft:resistance",
+				"duration": 3600,
+				"amplifier": 2,
+				"show_particles": false
+			},
+			{
+				"effect": "minecraft:strength",
+				"duration": 3600,
+				"amplifier": 2,
+				"show_particles": false
+			},
+			{
+				"effect": "minecraft:jump_boost",
+				"duration": 3600,
+				"amplifier": 2,
+				"show_particles": false
+			},
+			{
+				"effect": "minecraft:haste",
+				"duration": 3600,
+				"amplifier": 1,
+				"show_particles": false
+			}
+		]
+	}
+}

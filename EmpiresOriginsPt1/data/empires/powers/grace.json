@@ -1,0 +1,30 @@
+{
+	"name": "Aeor's Grace",
+	"description": "The spirit of the mountains watches over you. You are able to traverse your steep mountain home more effectively.",
+	"condition": {
+		"type": "origins:biome",
+		"condition": {
+			"type": "origins:category",
+			"category": "extreme_hills"
+		}
+	},
+
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 3,
+	"duration_per_stack": 10,
+	"effects": [{
+			"effect": "minecraft:speed",
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": false
+		},
+		{
+			"effect": "minecraft:jump_boost",
+			"amplifier": 1,
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": false
+		}
+	]
+}

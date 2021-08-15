@@ -1,0 +1,36 @@
+{
+	"name": "For the Greater Good",
+	"description": "You feel guilt eating your cod brethren but their sacrifice for the greater good will not be in vain. You feel more powerful and resistant to attacks as you mourn their loss.",
+
+	"type": "origins:action_on_item_use",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": [{
+				"item": "minecraft:cod"
+			},
+			{
+				"item": "minecraft:cooked_cod"
+			}
+		]
+	},
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effects": [{
+				"effect": "minecraft:strength",
+				"duration": 400,
+				"amplifier": 1
+			},
+			{
+				"effect": "minecraft:resistance",
+				"duration": 400,
+				"amplifier": 1
+			},
+			{
+				"effect": "minecraft:slowness",
+				"duration": 400,
+				"amplifier": 2
+			}
+		]
+
+	}
+}
