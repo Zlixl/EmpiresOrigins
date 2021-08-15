@@ -9,12 +9,12 @@
 		"actions": [{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "execute at @s if entity @e[type = item_frame, nbt = {Item: {id: \"minecraft:poppy\"}}, distance = ..3] run effect give @s minecraft:regeneration 1 0 true"
+				"command": "execute at @s if entity @e[type = item_frame, nbt = {Item: {id: \"minecraft:poppy\"}}, distance = ..3] run effect give @s minecraft:regeneration 1 5 true"
 			},
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "execute at @s if entity @e[type = glow_item_frame, nbt = {Item: {id: \"minecraft:poppy\"}}, distance = ..3] run effect give @s minecraft:regeneration 1 0 true"
+				"command": "execute at @s if entity @e[type = glow_item_frame, nbt = {Item: {id: \"minecraft:poppy\"}}, distance = ..3] run effect give @s minecraft:regeneration 1 5 true"
 			}
 		]
 	}
