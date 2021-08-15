@@ -4,6 +4,7 @@
 		"empires:greater_good",
 		"empires:salmon_sickness",
 		"empires:cod_headed",
+		"empires:codharvest",
 		"empires:nohelmet",
 		"empires:cod_anxiety",
 		"empires:swampy_gills",
@@ -11,6 +12,7 @@
 		"empires:come_back",
 		"empires:cod_nausea",
 		"empires:cod_blindness",
+
 		"empires:reminisce"
 	],
 	"icon": "minecraft:cod_bucket",
