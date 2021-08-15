@@ -1,0 +1,19 @@
+{
+	"name": "Sheep Herder",
+	"description": "You have a lot of experience shearing sheep, knowing what just to cut to get more.",
+	"type": "origins:action_on_item_use",
+"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:shears"
+		}
+	},
+	"entity_action": {
+		"type": "origins:give",
+		"stack": {
+			"item": "minecraft:white_wool",
+			"amount": 3
+		}
+	}
+	
+}
